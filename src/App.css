@@ -1,0 +1,270 @@
+.main-content {
+  border: 3px solid green;
+  position: relative;
+  width: 1280px;
+  height: 610px;
+}
+
+.image-content {
+  position: absolute;
+  width: 620px;
+  height: 555px;
+  left: 20px;
+  top: calc(50% - 555px/2);
+
+  background: url("../public/images/Rectangle\ 15.png");
+}
+
+.frame45 {
+  position: absolute;
+  width: 64px;
+  height: 22px;
+  left: 20px;
+  top: 27px;
+}
+
+.upTime {
+  position: absolute;
+  width: 475px;
+  height: 112px;
+  left: 20px;
+  top: 280px;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 40px;
+  display: flex;
+  align-items: flex-start;
+  color: #FFFFFF;
+}
+
+.rect-1 {
+  position: absolute;
+  width: 4.87px;
+  height: 5.49px;
+  left: 53.02px;
+  top: 426px;
+
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 74.4249px;
+  transform: rotate(180deg);
+}
+
+.rect-2 {
+
+  position: absolute;
+  width: 4.87px;
+  height: 5.49px;
+  left: 44.35px;
+  top: 426px;
+
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 74.4249px;
+  transform: rotate(180deg)
+}
+
+.rect-3 {
+  position: absolute;
+  width: 20px;
+  height: 6px;
+  left: 20px;
+  top: 426px;
+
+  background: #FFFFFF;
+  border-radius: 74.4249px;
+  transform: rotate(180deg);
+}
+
+.frame55 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 119px;
+  height: 17px;
+  left: 20px;
+  top: 511px;
+}
+
+.internet {
+  width: 14.05px;
+  height: 14.03px;
+}
+
+.com {
+  width: 84px;
+  height: 18px;
+  position: absolute;
+  left: 17px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #BFBFBF;
+}
+
+.frame61 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  left: 539px;
+  top: 512px;
+}
+
+.petals {
+  position: absolute;
+  width: 61px;
+  height: 49px;
+  left: calc(50% - 61px/2 + 320.5px);
+  top: 78px;
+}
+
+.welcome {
+  position: absolute;
+  width: 266px;
+  height: 44px;
+  left: 827px;
+  top: 127px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #020100;
+}
+
+.glad {
+  position: absolute;
+  width: 153px;
+  height: 22px;
+  left: 884px;
+  top: 171px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: #667085;
+
+}
+
+.email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 49px;
+  left: 780px;
+  top: 219px;
+  opacity: 0.45;
+  border: 1px solid #464660;
+  border-radius: 10px;
+}
+
+.pass {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 360px;
+  height: 49px;
+  left: 780px;
+  top: 290px;
+
+  opacity: 0.45;
+  border: 1px solid #464660;
+  border-radius: 10px;
+}
+
+.inputText {
+  padding-left: 20px;
+  font-size: medium;
+}
+
+.eye {
+
+  position: absolute;
+  width: 25.01px;
+  height: 20.18px;
+  left: 1100.7px;
+  top: 304.41px;
+}
+
+.forgot {
+  position: absolute;
+  width: 102px;
+  height: 15px;
+  left: 1038px;
+  top: 345px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #667085;
+
+  opacity: 0.5;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  position: absolute;
+  width: 360px;
+  height: 53px;
+  left: 780px;
+  top: 398px;
+  color: #FFFFFF;
+  background: #020100;
+  box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+  border-radius: 10px;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.signup {
+  position: absolute;
+  width: 236px;
+  height: 19px;
+  left: calc(50% - 236px/2 + 320px);
+  top: 521px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #667085;
+}
